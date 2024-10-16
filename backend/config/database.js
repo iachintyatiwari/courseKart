@@ -16,7 +16,7 @@ exports.connectDB = () => {
 
 
 // const { MongoClient, ServerApiVersion } = require('mongodb');
-// const uri = "mongodb+srv://iachintya:iachintya@db.dvcwg.mongodb.net/?retryWrites=true&w=majority&appName=DB";
+// const uri = ;
 
 // // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 // exports.connectDB = () => {
