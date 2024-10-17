@@ -8,7 +8,7 @@ const LearningGridArray = [
     heading: "World-Class Learning for",
     highlightText: "Anyone, Anywhere",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.",
+      "CourseKart Provide Platform to more then 10000 teachers across the word to teach millions of student across the word",
     BtnText: "Learn More",
     BtnLink: "/",
   },
@@ -22,25 +22,25 @@ const LearningGridArray = [
     order: 2,
     heading: "Our Learning Methods",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "CourseKArt partners with more than 10000 teachers",
   },
   {
     order: 3,
     heading: "Certification",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "CourseKArt partners with more than 10000 teachers",
   },
   {
     order: 4,
     heading: `Rating "Auto-grading"`,
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "CourseKArt partners with more than 10000 teachers",
   },
   {
     order: 5,
     heading: "Ready to Work",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "CourseKArt partners with more than 10000 teachers",
   },
 ];
 
