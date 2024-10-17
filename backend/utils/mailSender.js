@@ -13,7 +13,7 @@ const mailSender = async (email, title, body) => {
         });
 
         const info = await transporter.sendMail({
-            from: 'StudyNotion || by Aniruddha Gade',
+            from: 'CourseKart || Achintya Tiwari',
             to: email,
             subject: title,
             html: body

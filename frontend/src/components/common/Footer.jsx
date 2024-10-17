@@ -5,7 +5,7 @@ import { ImGithub, ImLinkedin2 } from "react-icons/im";
 
 
 // Images
-import StudyNotionLogo from "../../assets/Logo/Logo-Full-Light.png";
+import logo from "../../assets/Logo/CKlogo.png";
 
 // footer data
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
@@ -26,14 +26,14 @@ const Community = ["Forums", "Chapters", "Events"];
 
 const Footer = () => {
   return (
-    <div className="bg-richblack-800 mx-7 rounded-3xl mb-10">
+    <div className="bg-black mx-7 rounded-3xl mb-10">
       <div className="flex lg:flex-row gap-8 items-center justify-between w-11/12 max-w-maxContent text-richblack-400 leading-6 mx-auto relative py-14">
         <div className="border-b w-[100%] flex flex-col lg:flex-row pb-5 border-richblack-700">
 
           {/* Section 1 */}
           <div className="lg:w-[50%] flex flex-wrap flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-5 gap-3">
             <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0">
-              <img src={StudyNotionLogo} alt="" className="object-contain" />
+              <img src={logo} alt="" className="object-contain" />
               <h1 className="text-richblack-50 font-semibold text-[16px]">Company</h1>
               <div className="flex flex-col gap-2">
                 {["About", "Careers", "Affiliates"].map((ele, i) => {
@@ -176,19 +176,19 @@ const Footer = () => {
             <div className="flex ">
               <span> Made with ❤️</span>
 
-              <Link to='https://github.com/Aniruddha-Gade' target="__blank" className="text-white hover:underline mr-1"
+              <Link to='https://github.com/iachintyatiwari' target="__blank" className="text-white hover:underline mr-1"
               >
-                Aniruddha Gade
+                Achintya Tiwari
               </Link>
             </div>
-            <span> © 2023 Studynotion</span>
+            <span> © 2024 CourseKart</span>
           </div>
 
           <div className="flex items-center">
-            <a href="https://www.linkedin.com/in/aniruddha-gade-a48800231/" className="text-white p-3 hover:bg-richblack-700 rounded-full duration-300" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/iachintyatiwari/" className="text-white p-3 hover:bg-richblack-700 rounded-full duration-300" target="_blank" rel="noopener noreferrer">
               <ImLinkedin2 size={17} />
             </a>
-            <a href="https://www.github.com/Aniruddha-Gade" className="text-white p-3 hover:bg-richblack-700 rounded-full duration-300" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com/iachintyatiwari" className="text-white p-3 hover:bg-richblack-700 rounded-full duration-300" target="_blank" rel="noopener noreferrer">
               <ImGithub size={17} />
             </a>
           </div>

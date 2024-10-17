@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { Route, Routes, useLocation, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -26,7 +25,7 @@ import Settings from "./components/core/Dashboard/Settings/Settings";
 import MyCourses from './components/core/Dashboard/MyCourses';
 import EditCourse from './components/core/Dashboard/EditCourse/EditCourse';
 import Instructor from './components/core/Dashboard/Instructor';
-import AdminPannel from "./Components/core/Dashboard/AdminPannel";
+import AdminPannel from './components/core/Dashboard/AdminPannel';
 
 
 import Cart from "./components/core/Dashboard/Cart/Cart";

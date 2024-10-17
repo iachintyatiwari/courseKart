@@ -19,10 +19,10 @@ exports.auth = (req, res, next) => {
             });
         }
 
-        // console.log('Token ==> ', token);
-        // console.log('From body -> ', req.body?.token);
-        // console.log('from cookies -> ', req.cookies?.token);
-        // console.log('from headers -> ', req.header('Authorization')?.replace('Bearer ', ''));
+        console.log('Token ==> ', token);
+        console.log('From body -> ', req.body?.token);
+        console.log('from cookies -> ', req.cookies?.token);
+        console.log('from headers -> ', req.header('Authorization')?.replace('Bearer ', ''));
 
         // verify token
         try {
