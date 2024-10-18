@@ -2,6 +2,8 @@ import React from "react";
 import CTAButton from "./Button";
 import { TypeAnimation } from "react-type-animation";
 import { FaArrowRight } from "react-icons/fa";
+import section2image from '../../../assets/Images/signup2.webp'
+
 
 const CodeBlocks = ({
     position,
@@ -39,12 +41,12 @@ const CodeBlocks = ({
                     </CTAButton>
                 </div>
             </div>
-
+            <img src={section2image} alt="Description of the image" />
             {/* Section 2 */}
-            <div className="h-fit code-border border border-richblack-700 rounded-xl flex flex-row py-3 text-[10px] sm:text-sm leading-[18px] sm:leading-6 relative w-[100%] lg:w-[470px]">
+            {/* <div className="h-fit code-border border border-richblack-700 rounded-xl flex flex-row py-3 text-[10px] sm:text-sm leading-[18px] sm:leading-6 relative w-[100%] lg:w-[470px]"> */}
 
                 {/* Indexing */}
-                <div className="text-center flex flex-col  w-[10%] select-none text-richblack-400 font-inter font-bold ">
+                {/* <div className="text-center flex flex-col  w-[10%] select-none text-richblack-400 font-inter font-bold ">
                     <p>1</p>
                     <p>2</p>
                     <p>3</p>
@@ -56,13 +58,13 @@ const CodeBlocks = ({
                     <p>9</p>
                     <p>10</p>
                     <p>11</p>
-                </div>
+                </div> */}
 
                 {/* Codes */}
-                <div
+                {/* <div
                     className={`w-[90%] flex flex-col gap-2 font-bold font-mono ${codeColor} pr-1`}
                 >
-                     <div className={`${backgroundGradient}`}></div>
+                     <div className={`${backgroundGradient}`}></div> */}
 
                     {/* <TypeAnimation
                         sequence={[codeblock, 1000, ""]}
@@ -74,23 +76,23 @@ const CodeBlocks = ({
                         }}
                         omitDeletionAnimation={true}
                     /> */}
-                     <TypeAnimation
+                     {/* <TypeAnimation
             sequence={[codeblock, 2000, ""]}
             repeat={Infinity}
-            cursor={true}
+            cursor={true} */}
            
-            style = {
+            {/* style = {
                 {
                     whiteSpace: "pre-line",
                     display:"block",
                     overflowX:"hidden",
                     fontSize:"16px",
                 }
-            }
+            }   
             omitDeletionAnimation={true}
            />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

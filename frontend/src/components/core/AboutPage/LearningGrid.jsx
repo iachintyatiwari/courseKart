@@ -5,43 +5,43 @@ import CTAButton from "../../../components/core/HomePage/Button";
 const LearningGridArray = [
   {
     order: -1,
-    heading: "World-Class Learning for",
-    highlightText: "Anyone, Anywhere",
+    heading: "",
+    highlightText: "OUR TEAM",
     description:
-      "CourseKart Provide Platform to more then 10000 teachers across the word to teach millions of student across the word",
+      "We 4 Worked on the Project",
     BtnText: "Learn More",
     BtnLink: "/",
   },
   {
     order: 1,
-    heading: "Curriculum Based on Industry Needs",
+    heading: "Achintya Tiwari",
     description:
-      "Save time and money! The Belajar curriculum is made to be easier to understand and in line with industry needs.",
+      "Worked in Complete Frontend and Backend,built a user friendly frontend and various backend API",
   },
   {
     order: 2,
-    heading: "Our Learning Methods",
+    heading: "Sainkee Thakur",
     description:
-      "CourseKArt partners with more than 10000 teachers",
+      "Worked in building a various components of frontend and worked on the assets",
   },
   {
     order: 3,
-    heading: "Certification",
+    heading: "Aayushman Srivas",
     description:
-      "CourseKArt partners with more than 10000 teachers",
+      "Worked with the complete testing of the Project and make sure all the API are working right",
   },
   {
     order: 4,
-    heading: `Rating "Auto-grading"`,
+    heading: "Ajay Kushwaha",
     description:
-      "CourseKArt partners with more than 10000 teachers",
+      "Worked on building the various backend API and Successfully fetching data from DB",
   },
-  {
-    order: 5,
-    heading: "Ready to Work",
-    description:
-      "CourseKArt partners with more than 10000 teachers",
-  },
+  // {
+  //   order: 5,
+  //   heading: "Ready to Work",
+  //   description:
+  //     "CourseKArt partners with more than 10000 teachers",
+  // },
 ];
 
 const LearningGrid = () => {

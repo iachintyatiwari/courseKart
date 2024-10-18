@@ -81,21 +81,9 @@ const About = () => {
                 Our Founding Story
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+              During our research, we found that there was no platform that specifically helped teachers easily list their courses online and sell them to earn money. This gap inspired us to build an e-learning platform aimed at empowering educators globally. Our key goals included creating an intuitive interface for course creation, supporting diverse monetization models, and connecting educators with a global audience. Challenges arose with seamless technical integration and course visibility. Despite these setbacks, the project successfully created a scalable platform that offers teachers a hassle-free way to share their expertise and generate income.
               </p>
-              <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                As experienced educators ourselves, we witnessed firsthand the
-                limitations and challenges of traditional education systems. We
-                believed that education should not be confined to the walls of a
-                classroom or restricted by geographical boundaries. We
-                envisioned a platform that could bridge these gaps and empower
-                individuals from all walks of life to unlock their full
-                potential.
-              </p>
+              
             </motion.div>
 
             <motion.div
@@ -113,7 +101,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-col items-center lg:gap-10 lg:flex-row justify-between">
-            <div className="my-24 flex lg:w-[40%] flex-col gap-10">
+            {/* <div className="my-24 flex lg:w-[40%] flex-col gap-10">
               <h1 className="bg-gradient-to-b from-[#FF512F] to-[#F09819] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
                 Our Vision
               </h1>
@@ -125,21 +113,21 @@ const About = () => {
                 cutting-edge technology with engaging content, fostering a
                 dynamic and interactive learning experience.
               </p>
-            </div>
+            </div> */}
 
-            <div className="my-24 flex lg:w-[40%] flex-col gap-10">
+            {/* <div className="my-24 flex lg:w-[40%] flex-col gap-10">
               <h1 className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text text-4xl font-semibold lg:w-[70%] ">
                 Our Mission
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
                 Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.
               </p>
-            </div>
+            </div>*/}
           </div>
-        </div>
+        </div> 
       </section>
 
-      <StatsComponenet />
+      {/* <StatsComponenet /> */}
 
       <section className="mx-auto mt-20 flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white">
         <LearningGrid />
